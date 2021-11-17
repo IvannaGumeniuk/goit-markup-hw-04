@@ -167,7 +167,7 @@ body {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  background: #c4c4c4;
+  background-color: #c4c4c4;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -225,6 +225,36 @@ body {
   margin-right: 0;
 }
 
+.advantage-item::before {
+  display: block;
+  margin-bottom: 30px;
+  content: '';
+  height: 120px;
+  border-style: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+
+.icon-details::before {
+  background-image: url(../images/antenna.png);
+}
+
+.icon-punctuality::before {
+  background-image: url(../images/clock.png);
+}
+
+.icon-planning::before {
+  background-image: ;
+}
+
+.icon-planning::before {
+  background-image: url(../images/diagram.png);
+}
+
+.icon-technology::before {
+  background-image: url(../images/astroaut.png);
+}
 .advantages-title {
   margin-bottom: 10px;
   font-weight: 700;
